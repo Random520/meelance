@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin:0;
+    background-color: #1C1C1C;
+    overflow-x: hidden;
+    user-select: none;
+    z-index: 0;
+}
+#page1 {
+    overflow: hidden;
+    position: relative;
+    background-color: #111;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+#menu h4 {
+    display: none;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+#menu h4:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+#menu i:hover {
+    cursor: pointer;
+}
+
+#meelance {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vw;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#draw {
+    background-color: transparent;
+    width: 10vw;
+    height: 10vw;
+    z-index: 1;
+}
+#headbar1 {
+    z-index: 3;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#headbar1 h2 {
+    color: #ffffff;
+    padding-left: 2.7vw;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 2vw;
+}   
+
+#headbar1 h2:hover {
+    cursor: pointer;
+}
+
+#headbar1 i {
+    color: #ffffff;
+    padding-right: 2.3vw;
+    font-size: 1.5vw;
+}
+#menu {
+    color: #ffffff;
+    z-index: 2;
+}
